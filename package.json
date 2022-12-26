@@ -1,0 +1,21 @@
+{
+  "name": "servidor.node-curso-de-flutter",
+  "version": "0.0.1",
+  "description": "servidor de curso avanzado de flutter ademas de template",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matias Echavarria",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.14.2",
+    "mongoose": "^6.8.1",
+    "socket.io": "^4.5.4"
+  }
+}
